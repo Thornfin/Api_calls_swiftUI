@@ -14,6 +14,9 @@
 		A12379042BE082C400B1DEED /* Api_calls_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12379032BE082C400B1DEED /* Api_calls_swiftUITests.swift */; };
 		A123790E2BE082C400B1DEED /* Api_calls_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123790D2BE082C400B1DEED /* Api_calls_swiftUIUITests.swift */; };
 		A12379102BE082C400B1DEED /* Api_calls_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123790F2BE082C400B1DEED /* Api_calls_swiftUIUITestsLaunchTests.swift */; };
+		A123792B2BE1A97C00B1DEED /* networkCallsFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123792A2BE1A97C00B1DEED /* networkCallsFunction.swift */; };
+		A123792F2BE1A9EC00B1DEED /* GitHubErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123792E2BE1A9EC00B1DEED /* GitHubErrors.swift */; };
+		A12379312BE1A9FC00B1DEED /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12379302BE1A9FC00B1DEED /* GitHubUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		A12379092BE082C400B1DEED /* Api_calls_swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Api_calls_swiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A123790D2BE082C400B1DEED /* Api_calls_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_calls_swiftUIUITests.swift; sourceTree = "<group>"; };
 		A123790F2BE082C400B1DEED /* Api_calls_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_calls_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A123792A2BE1A97C00B1DEED /* networkCallsFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkCallsFunction.swift; sourceTree = "<group>"; };
+		A123792E2BE1A9EC00B1DEED /* GitHubErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubErrors.swift; sourceTree = "<group>"; };
+		A12379302BE1A9FC00B1DEED /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				A12378F42BE082C200B1DEED /* ContentView.swift */,
 				A12378F62BE082C400B1DEED /* Assets.xcassets */,
 				A12378F82BE082C400B1DEED /* Preview Content */,
+				A123792A2BE1A97C00B1DEED /* networkCallsFunction.swift */,
+				A123792E2BE1A9EC00B1DEED /* GitHubErrors.swift */,
+				A12379302BE1A9FC00B1DEED /* GitHubUser.swift */,
 			);
 			path = Api_calls_swiftUI;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12378F52BE082C200B1DEED /* ContentView.swift in Sources */,
+				A123792F2BE1A9EC00B1DEED /* GitHubErrors.swift in Sources */,
+				A123792B2BE1A97C00B1DEED /* networkCallsFunction.swift in Sources */,
 				A12378F32BE082C200B1DEED /* Api_calls_swiftUIApp.swift in Sources */,
+				A12379312BE1A9FC00B1DEED /* GitHubUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
